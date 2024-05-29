@@ -1,0 +1,59 @@
+.box {
+    width: 100px;
+    height: 100px;
+}
+
+.red {
+    background-color: red;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.locate {
+    position: absolute;
+    /* 
+      relative : 있는자리 기준에서
+      absolute : 부모의 절대값 기준에서
+      static : 기본값(디폴트값), left, top 등을 이해하지 못함
+      fixed : absolute랑 비슷하나 스크롤해도 위치가 고정됨
+     */
+    left: 30px;
+    top: 30px;
+}
+
+.mother {
+    border: 1px solid red;
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: space-between;
+    /* 
+      가로로 움직일때
+      justify-content: space-around;
+      flex-end : 끝으로
+      flex-start : 처음으로
+      center : 중앙으로
+      space-between : 사이공간 만들기
+      space-around : 사이공간 만들기(적당히 모임)
+      ================================================
+      세로로 움직일때
+      align-items: end;
+      start : 가장 상단
+      center : 중간에
+      ==================================================
+      가로 세로를 바꿀떄
+      flex-direction: column;
+    */
+}
+
+.childeren {
+    background-color: blueviolet;
+    width: 100px;
+    height: 100px;
+}

@@ -1,0 +1,26 @@
+.body-main {
+    margin: 100px 0px 100px 0px;
+    text-align: center;
+}
+
+.body-sub {
+    text-decoration: none;
+    color: black;
+    padding: 30px 50px 30px 50px;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    color: white;
+    margin-right: 5px;
+}
+
+.mother {
+    border: 1px solid red;
+    display: flex;
+
+}
+
+.childeren {}
